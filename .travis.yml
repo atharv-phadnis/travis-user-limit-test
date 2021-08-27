@@ -1,0 +1,4 @@
+os: linux
+dist: focal
+
+script: uname -a
