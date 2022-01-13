@@ -1,4 +1,6 @@
 os: linux
 dist: focal
 
-script: uname -a
+script: 
+  - uname -a
+  - travis_wait 50 sleep 50m
